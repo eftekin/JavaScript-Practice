@@ -1,4 +1,4 @@
-<h1>🟨JavaScript-Practice</h1>
+<h1>JavaScript-Practice</h1>
 
 <p>This repository is created for practicing JavaScript as I begin my learning journey. It contains simple code snippets and basic projects that I have worked on while exploring JavaScript concepts.</p>
 
