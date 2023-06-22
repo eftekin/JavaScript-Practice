@@ -1,5 +1,5 @@
 const getUserChoice = (userInput) => {
-  var userInput = "rock";
+  var userInput = "scissors";
   if (
     userInput === "rock" ||
     userInput === "paper" ||
@@ -40,14 +40,14 @@ function determineWinner(userChoice, computerChoice) {
   }
 
   if (userChoice === "paper") {
-    if (computerChocie === "scissors") {
+    if (computerChoice === "scissors") {
       return "the computer won.";
     } else {
       return "the user won.";
     }
   }
 
-  if (userChoice === "scissors ") {
+  if (userChoice === "scissors") {
     if (computerChoice === "rock") {
       return "the computer won.";
     } else {
