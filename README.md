@@ -20,6 +20,25 @@
 
 <p>Feel free to browse through the code examples and explore the various JavaScript concepts in action.</p>
 
+<h2>My Progress</h2>
+
+<p>I have completed the JavaScript course on Codecademy and made significant progress in my learning journey. Here are some of the key topics I have covered:</p>
+
+<ul>
+  <li>Variables and Data Types</li>
+  <li>Conditional Statements</li>
+  <li>Functions</li>
+  <li>Scope</li>
+  <li>Arrays</li>
+  <li>Loops</li>
+  <li>Iterators</li>
+  <li>Objects</li>
+</ul>
+
+<p>With the knowledge gained from the course, I have been able to work on more advanced projects and dive deeper into JavaScript concepts. I'm excited to continue building my skills and exploring new areas of JavaScript development.</p>
+
+<p>If you have any suggestions or ideas for further learning resources or projects, feel free to reach out. I'm always eager to expand my knowledge and improve my coding skills.</p>
+
 <h2>Contributing</h2>
 
 <p>I welcome contributions from the community to enhance this repository and make it more valuable for others. If you'd like to contribute, please follow these steps:</p>
