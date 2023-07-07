@@ -6,6 +6,9 @@
 
 <p>As I progressed through my JavaScript learning journey on Codecademy, I found it helpful to have a dedicated repository to store and organize my practice code. This repository serves as a portfolio of my JavaScript skills and showcases the different concepts and techniques I have learned.</p>
 
+<a href="https://www.codecademy.com/profiles/eftekin/certificates/705dcb15de0da4dd9d9fc4f3274b430e" target="_blank"><img src="certificate.png" width="500" alt="Certificate" /></a>
+
+
 <h2>Getting Started</h2>
 
 <p>To get started with the code examples and projects in this repository, you'll need a basic understanding of JavaScript and a development environment set up on your machine. You can follow these steps to get started:</p>
