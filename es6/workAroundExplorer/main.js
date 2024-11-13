@@ -1,4 +1,4 @@
-// Gerekli modülleri burada içeri aktarın
+// Import necessary modules here
 import { getRoles, getCompanies } from "./salaryData.js";
 import {
   getAverageSalaryByRole,
@@ -8,17 +8,17 @@ import {
 } from "./workAroundModule.js";
 import { formatNumber } from "./utilities.js";
 
-// `getCompanies` ve `getRoles` fonksiyonlarını çağırın
+// Call `getCompanies` and `getRoles` functions to retrieve companies and roles data
 const companies = getCompanies();
 const roles = getRoles();
 
-// HTML yüklenince butonları render et
+// Render input buttons once the HTML is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
   renderInputButtons(companies, "company");
   renderInputButtons(roles, "role");
 });
 
-// Bu fonksiyon her şirket ve rol için birer <section> ve radio input butonu oluşturur
+// This function creates a <section> and a radio input button for each company and role
 function renderInputButtons(labels, groupName) {
   const container = document.createElement("section");
   container.setAttribute("id", `${groupName}Inputs`);
@@ -50,6 +50,7 @@ function renderInputButtons(labels, groupName) {
   document.querySelector("main").prepend(container);
 }
 
+// This function updates the displayed results based on selected company and role
 function updateResults() {
   const companyInput = document.querySelector("input[name='company']:checked");
   const roleInput = document.querySelector("input[name='role']:checked");
